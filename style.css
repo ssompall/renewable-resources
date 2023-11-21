@@ -1,0 +1,29 @@
+.line {
+  fill: none;
+  stroke: #113868;
+  stroke-width: 1px;
+}
+
+.selected {
+  stroke: #e40000;
+  stroke-width: 3;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 4px;
+  background: white;
+  border: 1px solid #ddd;
+  pointer-events: none;
+  font: Georgia;
+  /* font-size: 12px; */
+  color: black;
+}
+
+#big_div {
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
